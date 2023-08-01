@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket</title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js">
+    </script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.1/socket.io.js"
+        integrity="sha512-Z6C1p1NIexPj5MsVUunW4pg7uMX6/TT3CUVldmjXx2kpip1eZcrAnxIusDxyFIikyM9A61zOVNgvLr/TGudOQg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <h1>Hi, Hoomans!</h1>
+    <div class="container">
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="answer"></div>
+        </div>
+        <input id="name" type="text" placeholder="Name" />
+        <input id="message" type=“text" placeholder="Message" />
+        <button id="send" type="submit" name="action">
+            Send
+        </button>
+    </div>
+    <script src="/chat.js"></script>
+</body>
+
+</html>
